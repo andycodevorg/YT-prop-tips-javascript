@@ -1,4 +1,4 @@
-/* 1 - Acceder valores de objeto */
+/* 1 - Encadenamiento opcional*/
 
 const person = {
     name: 'Andy',
@@ -27,9 +27,9 @@ const people = {
     mail: 'andycodev@gmail.com'
 }
 
-// let name = people.mail ❌
+// let name = people.mail 
 
-let {name, lastName, age, mail} = people ✅
+let {name, lastName, age, mail} = people //TODO: Forma correcta
 
 console.log(name, lastName, age, mail);
 
@@ -47,5 +47,5 @@ let names = 'Andy Giampierre'
 let activity = 'playing'
 let time = 'today'
 
-/* console.log(names + ' is ' + activity + ' with her cats ' + time ); */ ❌
-console.log(`${names} is ${activity} with her cats ${time}`); ✅
+/* console.log(names + ' is ' + activity + ' with her cats ' + time ); */ 
+console.log(`${names} is ${activity} with her cats ${time}`) //TODO: Forma correcta
